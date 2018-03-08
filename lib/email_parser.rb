@@ -13,4 +13,5 @@ attr_accessor :email
   def parse
     parse = []
     parse = email.split(",", " ")
+  end
 end
