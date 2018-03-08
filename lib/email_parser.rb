@@ -12,6 +12,6 @@ attr_accessor :email
 
   def parse
     parse = []
-    parse = email.split(/[, \s ]/)
+    parse = emails.split(/[, \s ]/)
   end
 end
