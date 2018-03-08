@@ -16,4 +16,3 @@ attr_accessor :email
     parse.delete_if(&:empty?).uniq
   end
 end
-
