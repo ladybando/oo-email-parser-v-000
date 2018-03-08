@@ -12,6 +12,8 @@ attr_accessor :email
 
   def parse
     parse = []
-    parse = email.split(/[,\s]/)
+    parse = email.split(/[, \s ]/)
+    parse.delete_if(&:empty?).uniq
   end
 end
+
