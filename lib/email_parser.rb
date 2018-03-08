@@ -9,5 +9,5 @@ attr_accessor :email
   def initialize(email)
     @email
   end
-  
+
 end
